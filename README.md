@@ -42,7 +42,7 @@ To be able to use the commands whenever powershell starts up you can add them in
 ```sh
 ise $profile
 ```
-In the your profile add
+then add in your profile:
 ```sh
 import-module -name .\path\to\set-ip.ps1
 ```
