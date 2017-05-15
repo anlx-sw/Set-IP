@@ -1,5 +1,7 @@
 # Set-IP
 
+Set-IP is a wrapper for some powershell network commands.
+
 As I have to manually change network adapter settings quite often i wrote this powershell functions to be able to easily change adapter settings in "lazy" syntax (minimal typing).
 
 I personally use conemu and load this function with my psprofile. For changing of adapter settings run powershell with admin privileges.
