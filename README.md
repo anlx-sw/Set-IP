@@ -7,7 +7,7 @@ As I have to manually change network adapter settings quite often i wrote this p
 I personally use conemu and load this function with my psprofile. For changing of adapter settings run powershell with admin privileges.
 I run powershell v5 - but is think it should work with powershell >= v3.
 
-## Usage expamples:
+## Usage examples:
 
 ```sh
 ip d 
@@ -37,7 +37,7 @@ or to show all ipv4 adapters
 show-ip
 ```
 
-There are two adpaters "LAN" and "WiFI" hardcoded to be used as ip or iw. You can change the adapter names in the "ip" and "iw" functions.
+There are two adpaters "LAN" and "WiFi" hardcoded to be used as ip or iw. You can change the adapter names in the "ip" and "iw" functions.
 
 To be able to use the commands whenever powershell starts up you can add them in your powershell profile:
 
